@@ -13,7 +13,7 @@ public class Main {
             long finish1 = System.currentTimeMillis();
             System.out.println("UsualMatrixProduct: " + (finish1 - start1) + " ms");
             long start2 = System.currentTimeMillis();
-            System.out.println(m1.parallelProduct(m2,2));
+            System.out.println(m1.parallelProduct(m2,4));
             long finish2 = System.currentTimeMillis();
             System.out.println("ParallelMatrixProduct: " + (finish2 - start2) + " ms");
         }
